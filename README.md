@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# Verozi
+
+A Fashion website built with React.
+
+
+Deployed live at https://maxly-verozi.netlify.app
+
+
+![](SitePreview.png)
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
