@@ -1,0 +1,22 @@
+.summerSale {
+  width: 100%;
+  min-height: 70vh;
+  background: url('../../images/summerBg.jpg') no-repeat top/cover;
+  display: flex;
+  align-items: center;
+  .container {
+    h2 {
+      font-size: 110px;
+      font-weight: 800;
+      line-height: 1;
+      color: #fff;
+    }
+  }
+  @media (max-width: 640px) {
+    .container {
+      h2 {
+        font-size: 60px;
+      }
+    }
+  }
+}
