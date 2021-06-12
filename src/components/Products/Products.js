@@ -1,20 +1,20 @@
 import Container from '../GlobalComponents/Container';
 import Title from '../GlobalComponents/Title';
 import TrendingCard from '../Trending/TrendingCard';
-import ProductOne from '../../images/productOne.jpg';
-import ProductTwo from '../../images/productTwo.jpg';
-import ProductThree from '../../images/productThree.jpg';
-import ProductFour from '../../images/productFour.jpg';
+import ProductSeven from '../../images/productSeven.jpg';
+import ProductEight from '../../images/productEight.jpg';
+import ProductNine from '../../images/productNine.jpg';
+import ProductTen from '../../images/productTen.jpg';
 import './Products.scss';
 
 const Products = () => (
   <section className='products' id='shop'>
     <Title titleText='Products' overlayTitle='PRODUCTS' />
     <Container>
-      <TrendingCard cartItem={true} price='$120' cardImg={ProductOne} />
-      <TrendingCard cartItem={true} price='$120' cardImg={ProductTwo} />
-      <TrendingCard cartItem={true} price='$120' cardImg={ProductThree} />
-      <TrendingCard cartItem={true} price='$120' cardImg={ProductFour} />
+      <TrendingCard cartItem={true} price='$120' cardImg={ProductSeven} />
+      <TrendingCard cartItem={true} price='$120' cardImg={ProductEight} />
+      <TrendingCard cartItem={true} price='$120' cardImg={ProductNine} />
+      <TrendingCard cartItem={true} price='$120' cardImg={ProductTen} />
     </Container>
   </section>
 );
