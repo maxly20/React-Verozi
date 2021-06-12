@@ -61,6 +61,14 @@
             border-radius: 50%;
             display: flex;
             margin-right: 14px;
+            cursor: pointer;
+            transition: all 0.5s ease-in-out;
+            &:hover {
+              background-color: #f2a0b7;
+              i {
+                color: #fff;
+              }
+            }
             i {
               margin: auto;
               color: #000;
